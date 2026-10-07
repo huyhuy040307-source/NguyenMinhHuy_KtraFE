@@ -1,0 +1,392 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="~/Content/KtraFe-style-css.css" rel="stylesheet" />
+    <script src="~/Scripts/MyKtraFE/KtraFE.js"></script>
+</head>
+<body>
+    <!-- ================= HEADER ================= -->
+    <div class="header">
+        <div class="logo">
+            amazon<span>.com</span>
+        </div>
+        <div class="location">
+            Deliver to
+            <b>HoChiMinhCity</b>
+        </div>
+        <div class="search">
+            <div class="search-all">All</div>
+            <input type="text" placeholder="Search Amazon">
+            <div class="search-btn">🔍</div>
+        </div>
+
+        <div class="account">
+            Xin chào, Đăng nhập
+            <b>Account & Lists</b>
+        </div>
+
+        <div class="orders">
+            Returns
+            <b>& Orders</b>
+        </div>
+
+        <div class="cart-icon">
+            🛒
+        </div>
+
+    </div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <div class="navbar">
+
+        <div>☰ All</div>
+        <div>Today's Deals</div>
+        <div>Prime Video</div>
+        <div>Buy Again</div>
+        <div>Customer Service</div>
+        <div>Registry</div>
+        <div>Gift Cards</div>
+        <div>Sell</div>
+
+    </div>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <div class="container">
+
+        <div class="content">
+
+
+            <!-- ================= LEFT ================= -->
+
+            <div class="left">
+
+
+                <!-- SHOPPING CART -->
+
+                <div class="cart">
+
+                    <div class="cart-title">
+                        Giỏ Hàng
+                    </div>
+
+                    <div class="deselect">
+                        Deselect all items
+                    </div>
+                    <!-- PRODUCT 1 -->
+                    <div class="product">
+
+                        <div class="check">
+                            <input type="checkbox" checked>
+                        </div>
+
+                        <div class="product-image">
+                            <img src="https://cdn.nhathuocsuckhoe.com/unsafe/0x900/left/top/smart/filters:quality(75)/https://static.nhathuocsuckhoe.com/seller/1775502908998/cloud-image-1775502908998-image_1775502884810.jpg">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                Túi Xách Tay Nữ Louis Vuitton LV Nano Boulogne M25519 Chính Hãng 740743
+                            </div>
+                            <div class="stock">
+                                Còn hàng
+                            </div>
+                            <div class="shipping">
+                                Miễn phí ship
+                            </div>
+
+                            <div class="color">
+                                Color: Nâu be
+                            </div>
+
+                            <div class="actions">
+                                <div class="quantity">
+                                    <button onclick="minus(this)">
+                                        −
+                                    </button>
+                                    <span class="quantity-number">1</span>
+                                    <button onclick="plus(this)">
+                                        +
+                                    </button>
+                                </div>
+                                <div>Xóa</div>
+                                <div>Chia sẽ</div>
+                            </div>
+                        </div>
+                        <div class="price" data-price="9500000">
+                            9.500.000đ
+                        </div>
+                    </div>
+
+
+                    <!-- PRODUCT 2 -->
+
+                    <div class="product">
+
+                        <div class="check">
+                            <input type="checkbox" checked>
+                        </div>
+
+                        <div class="product-image">
+                            <img src="https://missi.com.vn/wp-content/uploads/2019/09/Dior-Sauvage-Parfum-01.jpg" />
+                        </div>
+
+                        <div class="product-info">
+
+                            <div class="product-name">
+                                DIOR SAUVAGE PARFUM
+                            </div>
+                            <div class="stock">
+                                Còn hàng
+                            </div>
+                            <div class="shipping">
+                                Miễn phí ship
+                            </div>
+                            <div class="color">
+                                Dung tích: 100ml
+                            </div>
+                            <div class="actions">
+                                <div class="quantity">
+                                    <button onclick="minus(this)">
+                                        −
+                                    </button>
+                                    <span class="quantity-number">2</span>
+                                    <button onclick="plus(this)">
+                                        +
+                                    </button>
+                                </div>
+                                <div>Xóa</div>
+                                <div>Chia sẽ</div>
+                            </div>
+                        </div>
+                        <div class="price" data-price="4230000">
+                            4.230.000đ
+                        </div>
+
+                    </div>
+
+
+                    <!-- PRODUCT 3 -->
+
+                    <div class="product">
+
+                        <div class="check">
+                            <input type="checkbox" checked>
+                        </div>
+
+                        <div class="product-image">
+                            <img src="https://image.uniqlo.com/UQ/ST3/jp/imagesother/000_PLP/Casual-Outer/26FW/MEN/Wave2-0/lineup-m-jackets.jpeg?width=200">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-name">
+                                Áo khoác Blouson & Parka
+                            </div>
+                            <div class="stock">
+                                Còn hàng
+                            </div>
+
+                            <div class="shipping">
+                                Miễn phí ship
+                            </div>
+                            <div class="color">
+                                Color: Xám đậm,Xám,Đen,
+                            </div>
+                            <div class="actions">
+                                <div class="quantity">
+                                    <button onclick="minus(this)">
+                                        −
+                                    </button>
+                                    <span class="quantity-number">3</span>
+                                    <button onclick="plus(this)">
+                                        +
+                                    </button>
+                                </div>
+                                <div>Xóa</div>
+                                <div>Chia sẽ</div>
+                            </div>
+                        </div>
+                        <div class="price" data-price="588000">
+                            588.000đ
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ================= YOUR ITEMS ================= -->
+
+                <div class="your-items">
+
+                    <div class="your-title">
+                        Your Items
+                    </div>
+
+                    <div class="tabs">
+                        Còn lại
+                        <span>Mua lại</span>
+                    </div>
+                    <!-- SAVED PRODUCT -->
+
+                    <div class="saved-product">
+
+                        <div>
+                            <img src="https://cdn.hstatic.net/products/1000230642/hsw015700bac__3__cc92c4bf51a84584a00a5e4c8ba12231.jpg"/>
+                        </div>
+                    <div>
+
+                        <div class="saved-name">
+                            Giày Pickleball - Tennis Nữ Biti's Hunter Vector Màu Bạc HSW015700BAC
+                        </div>
+                    <div>
+                        Kích cỡ : 35,36,37,38,39 
+                    </div>
+                    <button>
+                        Thêm vào giỏ hàng
+                    </button>
+                </div>
+                <div class="saved-price">
+                    900.000đ
+                </div>
+
+            </div>
+            <div class="saved-product">
+
+                <div>
+                    <img src="https://product.hstatic.net/1000230642/product/hew000901trg__6__cba0cc284f2044deab28d1bda678a2ec.jpg"/>
+                </div>
+                <div>
+                    <div class="saved-name">
+                        Sandal Biti's Hunter Nữ Màu Trắng HEW000901TRG
+                    </div>
+                    <button>
+                        Thêm vào giỏ hàng
+                    </button>
+                </div>
+                <div class="saved-price">
+                    495.000đ
+                </div>
+            </div>
+            <div class="saved-product">
+                <div>
+                    <img src="https://cdn.hstatic.net/products/1000230642/bsb004901den__2__ac3adcfb43444bc1980f9c17147db9e6_4f09950f49674233b83761b8036091f4.jpg"/>
+                </div>
+                <div>
+                    <div class="saved-name">
+                        Giày Thể Thao Biti's Trẻ Em BSB004901
+                    </div>
+                    <button>
+                        Thêm vào giỏ hàng
+                    </button>
+                </div>
+                <div class="saved-price">
+                    525.000đ
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= RIGHT ================= -->
+
+                    <div class="right">
+
+
+                        <!-- CHECKOUT -->
+
+                        <div class="checkout">
+
+                            <div class="checkout-title">
+                                Tổng sản phẩm (<span id="total-items">6</span> món):
+                                <b><span id="total-price">19.724.000</span>đ</b>
+                            </div>
+
+                            <button class="checkout-btn">
+                                Thanh toán
+                            </button>
+                        </div>
+                        <!-- RECOMMEND -->
+
+                        <div class="recommend">
+
+                            <div class="recommend-title">
+                                Sản phẩm phổ biến
+                            </div>
+
+
+                            <div class="recommend-item">
+
+                                <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=150">
+
+                                <div>
+
+                                    <div class="recommend-name">
+                                        Women's Fashion Casual Tops
+                                    </div>
+
+                                    <div class="stars">
+                                        ★★★★★
+                                    </div>
+
+                                    <b>789.000đ</b>
+
+                                    <button>
+                                        Thêm vào giỏ hàng
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="recommend-item">
+                                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=150">
+
+                                <div>
+
+                                    <div class="recommend-name">
+                                        Women's Summer Dress
+                                    </div>
+
+                                    <div class="stars">
+                                        ★★★★★
+                                    </div>
+                                    <b>450.000đ</b>
+                                    <button>
+                                        Thêm vào giỏ hàng
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="recommend-item">
+                                <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=150">
+
+                            <div>
+                                <div class="recommend-name">
+                                        Women's Lightweight Jacket
+                                </div>
+                                <div class="stars">
+                                        ★★★★☆
+                                </div>
+                                <b>250.000đ</b>
+                                <button>
+                                    Thêm vào giỏ hàng
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
